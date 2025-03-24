@@ -13,7 +13,7 @@ spec:
       valueFiles:
         - values.yaml
     path: apps/ubuntu
-    repoURL: https://github.com/axivo/k3s-applications.git
+    repoURL: https://github.com/homelabjunkie/k3s-applications.git
     targetRevision: HEAD
   syncPolicy:
     automated:
