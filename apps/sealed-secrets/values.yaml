@@ -1,7 +1,7 @@
 sealed-secrets:
   ingress:
     # -- See [`bitnami-labs/sealed-secrets#1427`](https://github.com/bitnami-labs/sealed-secrets/issues/1427), for details
-    enabled: false
+    enabled: true
     annotations:
       cert-manager.io/cluster-issuer: cloudflare-cluster-issuer
     hostname: secrets.jeffriffle.com/v1/cert.pem
