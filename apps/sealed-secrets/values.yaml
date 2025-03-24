@@ -4,7 +4,7 @@ sealed-secrets:
     enabled: false
     annotations:
       cert-manager.io/cluster-issuer: cloudflare-cluster-issuer
-    hostname: secrets.noty.cc
+    hostname: secrets.jeffriffle.com
     ingressClassName: cilium
     pathType: Prefix
     tls: true
