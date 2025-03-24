@@ -4,7 +4,7 @@ sealed-secrets:
     enabled: false
     annotations:
       cert-manager.io/cluster-issuer: cloudflare-cluster-issuer
-    hostname: secrets.jeffriffle.com
+    hostname: secrets.jeffriffle.com/v1/cert.pem
     ingressClassName: cilium
     pathType: Prefix
     tls: true
